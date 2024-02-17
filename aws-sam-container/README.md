@@ -80,7 +80,7 @@ aws lambda add-permission \
   --action lambda:InvokeFunctionUrl \
   --principal "*" \
   --function-url-auth-type "NONE" \
-  --statement-id unique-statement-id
+  --statement-id url
 ```
 
 This command grants permission to all principals (*) to invoke your Lambda function URL, enabling public access as intended.
